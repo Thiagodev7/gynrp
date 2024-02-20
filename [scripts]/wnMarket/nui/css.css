@@ -1,0 +1,441 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	display: none;
+}
+
+.container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 1100px;
+	height: 600px;
+	background: #232424;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+.container .cima{
+	width: 20%;
+	height: 100%;
+	background: #2d2e2e;
+	border-radius: 10px;
+}
+
+.container .cima .text{
+	position: relative;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	top: 5%;
+	text-align: center;
+}
+
+.text2{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15%;
+}
+
+.botoes{
+	width: 100%;
+	height: 60%;
+	margin-top: 5%;
+}
+
+.botoes button{
+	width: 100%;
+	height: 30px;
+	outline: 0;
+	border: 0;
+	background: #2d2e2e;
+	color: #fff;
+	border-left: 4px solid transparent;
+	transition: all 1s;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.separador{
+	width: 80%;
+	height: 0.3%;
+	margin-left: 10%;
+	margin-top: 10%;
+	background: #b6b7b8;
+}
+
+.icon{
+	color: rgb(238, 206, 99);;
+	font-size: 16px;
+}
+
+.botoes button:hover{
+	border-left: 4px solid rgb(238, 206, 99);
+}
+
+.lado{
+	position: absolute;
+	left: 20%;
+	width: 80%;
+	height: 100%;
+	top: 0;
+}
+
+.titlo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-weight: bold;
+}
+
+.titlo::before{
+	content: '';
+	position: absolute;
+	width: 10%;
+	height: 0.5%;
+	margin-top: 3%;
+	background: rgb(238, 206, 99);;
+}
+
+.box{
+	width: 90%;
+	height: 80%;
+	margin-top: 3%;
+	margin-left: 5%;
+	overflow: auto;
+}
+
+.model{
+	width: 99%;
+	height: 20%;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: #2d2e2e;
+}
+
+.item{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	top: 7.5px;
+	margin-left: 2%;
+	border-radius: 10px;
+	background: #232424;
+}
+
+.item img{
+	width: 50px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.nome-item{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: -6.8%;
+	margin-left: 14%;
+}
+
+.quantidade{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	letter-spacing: 1px;
+	margin-top: 5%;
+	color: rgb(238, 206, 99);
+	text-align: center;
+}
+
+.valor{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-top: 1%;
+	margin-left: 14%;
+}
+
+.model button{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	background: #232424;
+	outline: 0;
+	border: 0;
+	margin-left: 93%;
+	margin-top: -4.7%;
+	transition: all 1s;
+}
+
+.model button:hover{
+	transform: scale(1.1);
+}
+
+.input{
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	margin-left: 71%;
+	margin-top: -3.5%;
+	background: #2d2e2e;
+}
+.iconseach{
+	margin-top: 6%;
+	color: rgb(238, 206, 99);
+	margin-left: 5%;
+}
+
+.input input{
+	width: 82%;
+	margin-left: 2%;
+	color: #fff;
+	height: 100%;
+	background: transparent;
+	outline: 0;
+	border: 0;
+}
+
+.dinheiro{
+	width: 60%;
+	height: 40px;
+	line-height: 30px;
+	margin-left: 20%;
+	margin-top: 30%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.box-d{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	background: #232424;
+}
+
+.dinheiro-t{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-top: -27%;
+	margin-left: 18%;
+}
+
+.fa-wallet{
+	font-size: 17px;
+	margin-top: 11px;
+}
+
+.comprar-display{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	background: #1b1b1b;
+	border-radius: 10px;
+}
+
+.vender-display{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 300px;
+	height: 350px;
+	background: #1b1b1b;
+	border-radius: 10px;
+}
+
+.nome-itemdisplay{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: 5%;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.imgdisplay{
+	width: 40%;
+	height: 40%;
+	margin-left: 30%;
+	background: #2d2e2e;
+	border-radius: 10px;
+	margin-top: 5%;
+}
+
+.imgdisplay img{
+	width: 90px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.inputdisplay{
+	width: 50%;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #2d2e2e;
+	outline: 0;
+	border: 0;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+.inputdisplay2{
+	width: 80%;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #2d2e2e;
+	outline: 0;
+	border: 0;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.plus{
+	position: absolute;
+	top: 62.8%;
+	left: 10%;
+	background: #2d2e2e;
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	line-height: 40px;
+	text-align: center;
+	outline: 0;
+	border: 0;
+	color: #fff;
+	transition: all 1s;
+}
+
+.plus:hover{
+	background: #212222;
+}
+
+.minus{
+	position: absolute;
+	top: 62.8%;
+	left: 76.8%;
+	background: #2d2e2e;
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	line-height: 40px;
+	text-align: center;
+	outline: 0;
+	border: 0;
+	color: #fff;
+	transition: all 1s;
+}
+
+.minus:hover{
+	background: #212222;
+}
+
+.confirmar-compra{
+	width: 80%;
+	height: 40px;
+	outline: 0;
+	border: 0;
+	border-radius: 10px;
+	color: #2d2e2e;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: rgb(238, 206, 99);
+	transition: all 1s;
+}
+
+.confirmar-compra:hover{
+	background: rgb(156, 130, 44);
+}
+
+.confirmar-venda{
+	width: 80%;
+	height: 40px;
+	outline: 0;
+	border: 0;
+	border-radius: 10px;
+	color: #2d2e2e;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: rgb(238, 206, 99);
+	transition: all 1s;
+}
+
+.confirmar-venda:hover{
+	background: rgb(156, 130, 44);
+}
+
+.fechar-menu{
+	position: absolute;
+	top: 4%;
+	left: 85%;
+	outline: 0;
+	border: 0;
+	background: rgb(253, 72, 72);
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	transition: all 1s;
+}
+
+.fechar-menu:hover{
+	background: rgb(255, 0, 0);
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(238, 206, 99);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(156, 130, 44);
+}
+::-webkit-scrollbar-track{
+    background: #2d2e2e;
+    border-radius: 10px;
+}
